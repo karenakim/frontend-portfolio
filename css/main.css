@@ -1,0 +1,63 @@
+		body {
+			margin: 0;
+			text-align: center;
+			font-family: lato;
+		}
+
+		header {
+			margin: 0 auto;
+			font-size: 1.5em;
+
+		}
+
+		.splash-image {
+			width: 100%;
+		}
+
+		.content {
+			text-align: center;
+			margin: 4%;
+		}
+
+		.logo {
+			width: 50%;
+		}
+
+		.card>h3 {
+				margin-top: 0px;
+		}
+
+		img {
+			max-width: 100%;
+			height: auto;
+			display: block;
+		}
+
+		@media screen and (min-width: 730px) {
+
+			.content {
+				display: flex;
+				justify-content: space-between;
+			}
+
+			header {
+				margin: 10px;
+				display: flex;
+				justify-content: space-between;
+			}
+
+			.logo-holder {
+				margin: 10px;
+				text-align: left;
+				width: 40%;
+			}
+
+			.title-holder {
+				margin: 10px;
+				text-align: right;
+			}
+
+			.logo {
+				width: 80%;
+			}
+		}
